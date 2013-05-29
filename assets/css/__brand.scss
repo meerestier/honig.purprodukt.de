@@ -1,0 +1,14 @@
+.brand {
+	width: 100%;
+}
+
+#logotype {
+	content: url('logotype.png');
+	margin-left: auto ;
+	margin-right: auto ;
+}
+
+body {
+	background: url('backdrop.png') no-repeat;
+	background-size: cover;
+}
