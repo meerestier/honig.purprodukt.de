@@ -3,7 +3,9 @@
 }
 
 #logotype {
-	content: url('logotype.png');
+	content: url('logotype.svg');
+	width: 220px;
+	height: 32px;
 	margin-left: auto ;
 	margin-right: auto ;
 }
@@ -11,6 +13,7 @@
 body {
 	background: url('backdrop.png') no-repeat;
 	background-size: cover;
+	min-height: 600px;
 }
 
 
