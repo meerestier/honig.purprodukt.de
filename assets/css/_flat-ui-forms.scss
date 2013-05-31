@@ -1,19 +1,17 @@
 /* Flat UI Forms */
 
-$font-set: Courier, serif;
-
 /* Colors Textfield */
 $text-field-border: #ECF0F1;
-$text-field-border-focus: orange;
+$text-field-border-focus: #1ABC9C;
 $text: #ECF0F1;
 $text-focus: #222222;
 
 /* Button */
 $button-text-color: #fff;
-$button-color: orange;
+$button-color: #1ABC9C;
 $button-color-hover: #2ECC71;
 $button-color-pressed: #27AE60;
-$button-border-color: orange;
+$button-border-color: #1ABC9C;
 $button-border-color-hover: #2ECC71;
 $button-border-color-pressed: #27AE60;
 
@@ -21,15 +19,15 @@ $button-border-color-pressed: #27AE60;
 $checkbox-label-color: #fff;
 $checkbox-color: #ECF0F1;
 $checkbox-border-color: #ECF0F1;
-$checkbox-color-checked: orange;
-$checkbox-border-color-checked: orange;
+$checkbox-color-checked: #1ABC9C;
+$checkbox-border-color-checked: #1ABC9C;
 
 /* Radio */
 $radio-label-color: #fff;
 $radio-color: #ECF0F1;
 $radio-border-color: #ECF0F1;
-$radio-color-checked: orange;
-$radio-border-color-checked: orange;
+$radio-color-checked: #1ABC9C;
+$radio-border-color-checked: #1ABC9C;
 
 /* Setup */
 input:focus, select:focus, textarea:focus, button:focus {
@@ -83,7 +81,7 @@ label, select, button, input[type="button"], input[type="reset"], input[type="su
 }
 
 input, textarea {
-	font-family: $font-set;
+	font-family: Georgia, "Times New Roman", Times, serif;
 	padding: 0.5em;
 	margin: 1em 0;
 	color: $text-focus;	
@@ -126,7 +124,7 @@ input:focus, textarea:focus {
 	margin: 1em 0;
 	padding: 0.5em;
 	text-decoration: none;
-	font-family: $font-set;
+	font-family: Georgia, "Times New Roman", Times, serif;
 	-moz-transition: all 0.25s ease-in;
 	-o-transition: all 0.25s ease-in;
 	-webkit-transition: all 0.25s ease-in;
@@ -235,15 +233,15 @@ input:focus, textarea:focus {
 	border-radius: 50px;
 	position: absolute;
 	top: 0.125em;
-	background: orange;
+	background: #1ABC9C;
 	left: 0.125em;
 	font-size: 1.7em;
 }
 
 .regular-radio:checked + label {
 	background-color: #fff;
-	color: orange;
-	border: 4px solid orange;
+	color: #1ABC9C;
+	border: 4px solid #1ABC9C;
 }
 
 .regular-radio + label:active, .regular-radio:checked + label:active {

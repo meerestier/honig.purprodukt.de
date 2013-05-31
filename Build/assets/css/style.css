@@ -202,7 +202,7 @@ button,
 input,
 select,
 textarea {
-  color: #604c3f; }
+  color: #222222; }
 
 html {
   font-size: 100%;
@@ -215,16 +215,16 @@ body {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  color: #604c3f;
+  color: #222222;
   background-color: white; }
 
 ::-moz-selection {
-  background: #604c3f;
+  background: #222222;
   color: white;
   text-shadow: none; }
 
 ::selection {
-  background: #604c3f;
+  background: #222222;
   color: white;
   text-shadow: none; }
 
@@ -386,7 +386,7 @@ textarea {
     font-size: 1.375em; } }
 /* Typography */
 body {
-  font-family: 'Montserrat', Georgia, "Times New Roman", Times, serif; }
+  font-family: Georgia, "Times New Roman", Times, serif; }
 
 h1 {
   font-size: 3.13636em;
@@ -566,7 +566,7 @@ label, select, button, input[type="button"], input[type="reset"], input[type="su
   color: #ecf0f1; }
 
 input, textarea {
-  font-family: Courier, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   padding: 0.5em;
   margin: 1em 0;
   color: #222222;
@@ -587,7 +587,7 @@ input, textarea {
   transition: all 0.25s ease-in; }
 
 input:focus, textarea:focus {
-  border-color: orange;
+  border-color: #1abc9c;
   -moz-transition: all 0.25s ease-in;
   -o-transition: all 0.25s ease-in;
   -webkit-transition: all 0.25s ease-in;
@@ -596,18 +596,18 @@ input:focus, textarea:focus {
 
 /* Button */
 .Button {
-  background-color: orange;
+  background-color: #1abc9c;
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
   -khtml-border-radius: 6px;
   border-radius: 6px;
-  border: 2px solid orange;
+  border: 2px solid #1abc9c;
   display: inline-block;
   color: white;
   margin: 1em 0;
   padding: 0.5em;
   text-decoration: none;
-  font-family: Courier, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   -moz-transition: all 0.25s ease-in;
   -o-transition: all 0.25s ease-in;
   -webkit-transition: all 0.25s ease-in;
@@ -625,8 +625,8 @@ input:focus, textarea:focus {
   transition: all 0.25s ease-in; }
 
 .Button:active {
-  background-color: orange;
-  border-color: orange; }
+  background-color: #1abc9c;
+  border-color: #1abc9c; }
 
 /* Checkbox */
 .regular-checkbox {
@@ -650,8 +650,8 @@ input:focus, textarea:focus {
   transition: all 0.25s ease-in; }
 
 .regular-checkbox:checked + label {
-  background-color: orange;
-  border-color: orange; }
+  background-color: #1abc9c;
+  border-color: #1abc9c; }
 
 .regular-checkbox:checked + label:after {
   content: '\2714';
@@ -701,14 +701,14 @@ input:focus, textarea:focus {
   border-radius: 50px;
   position: absolute;
   top: 0.125em;
-  background: orange;
+  background: #1ABC9C;
   left: 0.125em;
   font-size: 1.7em; }
 
 .regular-radio:checked + label {
   background-color: #fff;
-  color: orange;
-  border: 4px solid orange; }
+  color: #1ABC9C;
+  border: 4px solid #1ABC9C; }
 
 .regular-radio + label:active, .regular-radio:checked + label:active {
   -moz-transition: all 0.25s ease-in;
@@ -770,6 +770,9 @@ li ul, li ol {
 
 dl dd {
   margin-left: 1.5em; }
+
+dt {
+  font-family: Futura, "Century Gothic", AppleGothic, sans-serif; }
 
 /* Layout */
 aricle {
@@ -884,7 +887,6 @@ aricle {
 
   h2, h3 {
     page-break-after: avoid; } }
-/* Projektspezifisch */
 /* Branding */
 .brand {
   width: 100%; }
@@ -969,7 +971,6 @@ body {
 .modal a:visited {
   color: white; }
 
-/* js features */
 .pagination-nested1 {
 text-align: center;
 bottom:10px;
