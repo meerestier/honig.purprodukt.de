@@ -202,7 +202,7 @@ button,
 input,
 select,
 textarea {
-  color: #222222; }
+  color: #604c3f; }
 
 html {
   font-size: 100%;
@@ -215,16 +215,16 @@ body {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  color: #222222;
+  color: #604c3f;
   background-color: white; }
 
 ::-moz-selection {
-  background: #222222;
+  background: #604c3f;
   color: white;
   text-shadow: none; }
 
 ::selection {
-  background: #222222;
+  background: #604c3f;
   color: white;
   text-shadow: none; }
 
@@ -566,7 +566,7 @@ label, select, button, input[type="button"], input[type="reset"], input[type="su
   color: #ecf0f1; }
 
 input, textarea {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Courier, serif;
   padding: 0.5em;
   margin: 1em 0;
   color: #222222;
@@ -596,18 +596,18 @@ input:focus, textarea:focus {
 
 /* Button */
 .Button {
-  background-color: #1abc9c;
+  background-color: orange;
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
   -khtml-border-radius: 6px;
   border-radius: 6px;
-  border: 2px solid #1abc9c;
+  border: 2px solid orange;
   display: inline-block;
   color: white;
   margin: 1em 0;
   padding: 0.5em;
   text-decoration: none;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Courier, serif;
   -moz-transition: all 0.25s ease-in;
   -o-transition: all 0.25s ease-in;
   -webkit-transition: all 0.25s ease-in;
@@ -625,8 +625,8 @@ input:focus, textarea:focus {
   transition: all 0.25s ease-in; }
 
 .Button:active {
-  background-color: #1abc9c;
-  border-color: #1abc9c; }
+  background-color: orange;
+  border-color: orange; }
 
 /* Checkbox */
 .regular-checkbox {
@@ -650,8 +650,8 @@ input:focus, textarea:focus {
   transition: all 0.25s ease-in; }
 
 .regular-checkbox:checked + label {
-  background-color: #1abc9c;
-  border-color: #1abc9c; }
+  background-color: orange;
+  border-color: orange; }
 
 .regular-checkbox:checked + label:after {
   content: '\2714';
@@ -701,14 +701,14 @@ input:focus, textarea:focus {
   border-radius: 50px;
   position: absolute;
   top: 0.125em;
-  background: #1ABC9C;
+  background: orange;
   left: 0.125em;
   font-size: 1.7em; }
 
 .regular-radio:checked + label {
   background-color: #fff;
-  color: #1ABC9C;
-  border: 4px solid #1ABC9C; }
+  color: orange;
+  border: 4px solid orange; }
 
 .regular-radio + label:active, .regular-radio:checked + label:active {
   -moz-transition: all 0.25s ease-in;
@@ -884,16 +884,16 @@ aricle {
 
   h2, h3 {
     page-break-after: avoid; } }
+/* Projektspezifisch */
 /* Branding */
 .brand {
   width: 100%; }
 
 #logotype {
+  margin: 20px auto;
   content: url(../img/logotype.svg);
   width: 220px;
-  height: 32px;
-  margin-left: auto;
-  margin-right: auto; }
+  height: 32px; }
 
 body {
   background: url(../img/backdrop.png) no-repeat;
@@ -909,6 +909,7 @@ body {
   background: url(../img/dummy/dummy-holz.png) no-repeat top center;
   background-size: cover; }
 
+/* Produkte */
 .produkte {
   position: absolute;
   top: 0;
@@ -931,6 +932,11 @@ body {
   width: 220px;
   height: 310px; }
 
+.underline-link {
+  background: #ede8e4;
+  padding: 0	10px;
+  border-bottom: 1px solid #333; }
+
 .modal {
   z-index: 999;
   position: absolute;
@@ -938,28 +944,32 @@ body {
   left: 50%;
   margin: -200px 0 0 -130px;
   width: 265px;
-  height: 400px;
+  height: auto;
   background: silver;
   color: #604c3f; }
 
-.modal-object {
+.modal .modal-object {
   background: white;
   padding: 20px;
   border-radius: 5px;
   border: 2px solid; }
-
-.modal-object h3:first-child {
+.modal h3:first-child {
   margin-top: 0; }
+.modal h3 {
+  font-weight: normal;
+  margin-bottom: 10px; }
+.modal p {
+  margin-bottom: 0; }
+.modal a.submit {
+  text-align: center; }
+.modal .disclaimer {
+  padding: 10px;
+  font: 85% "Courier New", Courier, mono;
+  line-height: 85%; }
+.modal a:visited {
+  color: white; }
 
-.modal-object h3 {
-  font-weight: normal; }
-
-.modal-object button
-, .modal-object input
-, .modal-object select
-, .modal-object textarea {
-  font-size: 85%; }
-
+/* js features */
 .pagination-nested1 {
 text-align: center;
 bottom:10px;
