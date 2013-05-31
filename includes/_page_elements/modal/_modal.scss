@@ -1,0 +1,41 @@
+
+
+.modal {
+	z-index: 999;
+	position: absolute;
+	top:  50%;
+	left: 50%;
+	margin:  -200px 0 0 -130px;
+	width: 265px;
+	height: 400px;
+	background: silver;	
+	color: $brand-color1;
+}
+
+.modal-object {
+	background: white;
+	padding: 20px;
+	border-radius: 5px;
+	border: 2px solid;
+}
+
+.modal-object h3:first-child {
+	margin-top: 0;
+}
+
+.modal-object h3 {
+	font-weight: normal;
+}
+
+.modal-object {
+	
+	button
+	, input
+	, select
+	, textarea 
+	{
+	
+	font-size: 85%;
+	
+	}
+}
