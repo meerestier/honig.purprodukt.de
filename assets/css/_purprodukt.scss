@@ -8,11 +8,7 @@ $brand-color2: orange;
 }
 
 #logotype {
-	position: fixed;
-	top: 0px;
-	left: 50%;
-	margin-left: -110px;
-	z-index: 555;
+	margin: 20px auto;	
 	content: url('logotype.svg');
 	width: 220px;
 	height: 32px;
@@ -26,7 +22,7 @@ body {
 
 
 .buehne {
-	position: fixed;
+	position: absolute;
 	bottom: 0;
 	left: 0;
 	width: 100%;
@@ -49,14 +45,14 @@ body {
 
 .produkt-container {
 	margin-top: 40px;
-	background: url('dummy-produkt.png') no-repeat center center;
-	background-size: 220px 310px;
+/*	background: url('dummy-produkt.png') no-repeat center center;
+	background-size: 220px 310px;*/
 }
 
 .produkt {
 	position: relative;
 	top: 50%;
-	margin-top: -200px;
+	margin-top: -155px;
 	text-align: center;
 }
 
