@@ -5,12 +5,14 @@ $(function(){
 	var swiperN11 = $('.swiper-n11').swiper({
 	        pagination: '.pagination-n11',
 	        loop: true,
+	        preventLinks : false,	        
 	        slidesPerSlide: 1
 	    });
-	var swiperN22 = $('.swiper-n22').swiper({
-	        pagination: '.pagination-n22',
-	        slidesPerSlide: 1,
-	        mode: 'vertical'
-	    });
+	    
+	    
+	$('.js-open-popup-link').magnificPopup({
+	  type:'inline',
+	  midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+	});
 	
 })

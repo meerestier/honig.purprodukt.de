@@ -11,5 +11,7 @@
 
 /* @include swiper */
 
+/* @include jquery.magnific-popup */
+
 /* @include _scripts */
 
