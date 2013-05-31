@@ -14,7 +14,8 @@ $(function(){
 	        slidesPerSlide: 1,
 	        mode: 'vertical'
 	    });
-	
-	
-	
 })
+
+$("#reveal").click(function() {
+      $("#order").reveal();
+    });

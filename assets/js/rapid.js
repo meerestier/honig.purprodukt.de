@@ -9,7 +9,8 @@
 
 /* @include _flat-ui */
 
-/* @include swiper */
+
+/* @include reveal */
 
 /* @include _scripts */
 
