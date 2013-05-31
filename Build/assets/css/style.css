@@ -933,6 +933,62 @@ body {
   background: url(../img/dummy/dummy-holz.png) no-repeat top center;
   background-size: cover; }
 
+.pagination-nested1 {
+text-align: center;
+bottom:10px;
+left:50%;
+margin-left: -40px;
+width:160px;
+position:absolute;
+z-index:20
+}
+
+.pagination-nested1 .swiper-pagination-switch {
+background:none repeat scroll 0 0 #555;
+border:1px solid #FFF;
+border-radius:8px 8px 8px 8px;
+display:block;
+height:8px;
+margin:0 5px;
+opacity:.8;
+width:8px;
+float:left
+}
+
+.pagination-nested1 .swiper-active-switch {
+background:none repeat scroll 0 0 #FFF
+}
+
+.swiper-nested2,.swiper-nested2 .swiper-slide {
+width:100%;
+height:100%;
+color:#fff;
+text-align:center;
+line-height:125px;
+font-size:24px
+}
+
+.pagination-nested2 {
+right:5px;
+top:5px;
+position:absolute;
+z-index:20
+}
+
+.pagination-nested2 .swiper-pagination-switch {
+background:none repeat scroll 0 0 #555;
+border:1px solid #FFF;
+border-radius:8px 8px 8px 8px;
+display:block;
+height:8px;
+margin:0 0 5px;
+opacity:.8;
+width:8px
+}
+
+.pagination-nested2 .swiper-active-switch {
+background:none repeat scroll 0 0 #FFF
+}
 /*
  * Swiper - Mobile Touch Slider CSS
  * http://www.idangero.us/sliders/swiper

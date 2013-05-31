@@ -1,19 +1,16 @@
 // Swiper
 
 $(function(){
-	var mySwiper = $('.swiper-container').swiper({
-		//Your options here:
-		mode:'horizontal',
-		loop: true
-		//etc..
-	});
 	
-	var mySwiper = $('.swiper-container_nested').swiper({
-		//Your options here:
-		mode:'vertical',
-		loop: false,
-		//etc..
-	});
-	
+	var swiperN11 = $('.swiper-n11').swiper({
+	        pagination: '.pagination-n11',
+	        loop: true,
+	        slidesPerSlide: 1
+	    });
+	var swiperN22 = $('.swiper-n22').swiper({
+	        pagination: '.pagination-n22',
+	        slidesPerSlide: 1,
+	        mode: 'vertical'
+	    });
 	
 })
