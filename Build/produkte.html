@@ -79,33 +79,55 @@
         <!-- /Hammer reload -->
       
 
-	<section class="brand">
-		<h1 id="logotype">purprodukt</h1>		
-	</section>
+<!-- Logotype/Brand -->
 
-	<section class="produkte">
-		<div class="swiper-container swiper-nested1 swiper-n11">
-		  <div class="pagination-nested1 pagination-n11"></div>
-		  <div class="swiper-wrapper">
-		    <div class="produkt-container swiper-slide red-slide">
-		    	<div class="produkt"><img src="assets/img/dummy/dummy-produkt.png" alt="" width="220" height="310"/></div>
-		    </div>
-		    <div class="swiper-slide orange-slide">
-		    	<div class="produkt"><img src="assets/img/dummy/dummy-produkt.png" alt="" /></div>
-		    </div>
-		  </div>
+<section class="brand">
+	<h1 id="logotype">purprodukt</h1>		
+</section>
+
+
+<section class="produkte">
+	<div class="swiper-container swiper-nested1 swiper-n11">
+	  <div class="pagination-nested1 pagination-n11"></div>
+	  <div class="swiper-wrapper">
+		
+		<div class="swiper-slide red-slide">
+			<div class="produkt">1<img src="assets/img/dummy/dummy-produkt.png" alt="" width="220" height="310"/></div>
 		</div>
-	</section>
+		
+		<div class="swiper-slide red-slide">
+			<div class="produkt">2<img src="assets/img/dummy/dummy-produkt.png" alt="" width="220" height="310"/></div>
+		</div>
+		
+		<div class="swiper-slide red-slide">
+			
+			<!-- Nested Swiper -->
+			<div class="swiper-container swiper-nested2 swiper-n22">
+				<div class="pagination-nested2 pagination-n22"><span class="swiper-pagination-switch"></span><span class="swiper-pagination-switch swiper-active-switch swiper-activeslide-switch"></span><span class="swiper-pagination-switch swiper-active-switch"></span><span class="swiper-pagination-switch"></span><span class="swiper-pagination-switch"></span><span class="swiper-pagination-switch"></span></div>
+				<div class="swiper-wrapper" style="width: 210px; height: 750px; -webkit-transition: 0s; -webkit-transform: translate3d(0px, -125px, 0px); ">
+				<div class="produkt">A<img src="assets/img/dummy/dummy-produkt.png" alt="" width="220" height="310"/></div>
+				<div class="produkt">B<img src="assets/img/dummy/dummy-produkt.png" alt="" width="220" height="310"/></div>
+				<div class="produkt">C<img src="assets/img/dummy/dummy-produkt.png" alt="" width="220" height="310"/></div>
+				</div>
+			</div>
+		
+		</div>
+		
+	  </div> <!-- /swiper_wrapper -->
+	</div> <!-- /swiper_container -->
+</section>
 	
-	<section class="buehne">
-		&nbsp;
-	</section>
+<!-- Hintergrund Stage -->
+
+<section class="buehne">
+	&nbsp;
+</section>
+
 
 <script src='assets/js/rapid.js'></script>
  
 <!-- HTML5 IE Enabling Script -->
 <!--[if lt IE 9]><script src='assets/js/html5.js'></script><![endif]-->
-
 
 <!-- Google Analytics -->
 <script type="text/javascript">
@@ -125,5 +147,3 @@
 
 </body>
 </html>
-
-<!-- This site has been supercharged with «Rapid Bootstrap» by Niklaus Gerber | www.niklausgerber.com -->

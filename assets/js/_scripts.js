@@ -8,5 +8,12 @@ $(function(){
 		//etc..
 	});
 	
+	var mySwiper = $('.swiper-container_nested').swiper({
+		//Your options here:
+		mode:'vertical',
+		loop: false,
+		//etc..
+	});
+	
+	
 })
-
