@@ -1,6 +1,7 @@
-// Swiper
 
 $(function(){
+	
+	// Swiper
 	
 	var swiperN11 = $('.swiper-n11').swiper({
 	        pagination: '.pagination-n11',
@@ -9,6 +10,7 @@ $(function(){
 	        slidesPerSlide: 1
 	    });
 	    
+	// Modal
 	    
 	$('.js-open-popup-link').magnificPopup({
 	  type:'inline',
