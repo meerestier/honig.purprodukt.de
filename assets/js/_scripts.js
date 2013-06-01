@@ -3,9 +3,10 @@
 $(function(){
 	
 	var swiperN11 = $('.swiper-n11').swiper({
+			createPagination: false,
 	        pagination: '.pagination-n11',
 	        loop: true,
-	        preventLinks : false,	        
+	        preventLinks : true,	        
 	        slidesPerSlide: 1
 	    });
 	    
