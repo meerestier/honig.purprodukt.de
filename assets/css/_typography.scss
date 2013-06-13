@@ -1,7 +1,25 @@
+/* Brand presets */
+
+$font-set: "notcouriersansregular", Courier, mono;
+
+
+@font-face {
+    font-family: 'notcouriersansregular';
+    src: url('notcouriersans-webfont.eot');
+    src: url('notcouriersans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('notcouriersans-webfont.woff') format('woff'),
+         url('notcouriersans-webfont.ttf') format('truetype'),
+         url('notcouriersans-webfont.svg#notcouriersansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 /* Typography */
 
+
 body {
-	font-family: "Courier New", Courier, mono;
+	font-family: $font-set;
 }
 
 h1 {
